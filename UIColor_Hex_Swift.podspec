@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'HEXColor/*.{h,swift}'
   s.frameworks   = ['UIKit']
   s.requires_arc = true
+  s.tvos.deployment_target = "9.0"
 end
